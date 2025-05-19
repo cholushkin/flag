@@ -42,7 +42,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseTexture:
-        m_Texture: {fileID: 2800000, guid: 053ec40b0cdedfc4eaf64c0445133e56, type: 3}
+        m_Texture: {fileID: 2800000, guid: 29b02992cc47a4842b51ea358fd5d2c3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture2D:
@@ -70,8 +70,8 @@ Material:
     - _WaveLength: 3
     m_Colors:
     - _FlagColor: {r: 1, g: 1, b: 1, a: 1}
-    - _TextureOffset: {r: 2, g: 2, b: 0, a: 0}
-    - _TextureTiling: {r: -0.47, g: -0.49, b: 0, a: 0}
+    - _TextureOffset: {r: 1.68, g: 1.2, b: 0, a: 0}
+    - _TextureTiling: {r: -0.35, g: -0.05, b: 0, a: 0}
     - _Tiling: {r: -0.01, g: -0.02, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

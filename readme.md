@@ -28,8 +28,7 @@ This demo project demonstrates the following key features:
 
 
 ![Flag Animation](doc-assets/Animation.gif)
-
-
+![Screenshot](doc-assets/Screenshot_1.jpg)
 
 
 ## Tags
