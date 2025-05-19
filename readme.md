@@ -24,7 +24,7 @@ This demo project demonstrates the following key features:
 
 * 🚩 **No cloth simulation** — uses a lightweight shader-based waving effect (faster and more GPU-friendly)
 * 🧭 **Works in object space** — the flag animation remains consistent even when the object is rotated
-* 🎨 **Color support via `MaterialPropertyBlock`** — allows dynamic per-object coloring without duplicating materials (ideal for batching and memory efficiency)
+* 🎨 **Color and Texture support via `MaterialPropertyBlock`** — allows dynamic per-object coloring & texturing without duplicating materials (ideal for batching and memory efficiency)
 
 
 ![Flag Animation](doc-assets/Animation.gif)
