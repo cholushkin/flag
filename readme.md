@@ -52,8 +52,8 @@ This demo project demonstrates the following key features:
 * 🎨 **Color and Texture support via `MaterialPropertyBlock`** — allows dynamic per-object coloring & texturing without duplicating materials (ideal for batching and memory efficiency)
 
 
-![Flag Animation](doc-assets/Animation.gif)
-![Screenshot](doc-assets/Screenshot_1.jpg)
+![Flag Animation](Documentation/Animation.gif)
+![Screenshot](Documentation/Screenshot_1.jpg)
 
 
 ## Tags
