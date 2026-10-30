@@ -1,0 +1,29 @@
+{
+  "name": "com.qcat.flag",
+  "version": "1.0.0",
+  "displayName": "Flag",
+  "description": "Simple flag rendering/material utilities: color and texture property overrides (via MaterialPropertyBlock) and a rotation helper — extracted from a URP flag-rendering demo.",
+  "unity": "2021.3",
+  "keywords": [
+    "flag",
+    "material",
+    "rotation",
+    "demo"
+  ],
+  "author": {
+    "name": "Maxim Cholushkin",
+    "email": "cholushkin@gmail.com",
+    "url": "https://sites.google.com/view/cholushkinmaximcard/home"
+  },
+  "dependencies": {},
+  "documentationUrl": "https://github.com/cholushkin/flag/blob/master/README.md",
+  "changelogUrl": "https://github.com/cholushkin/flag/blob/master/CHANGELOG.md",
+  "licensesUrl": "https://github.com/cholushkin/flag/blob/master/LICENSE",
+  "samples": [
+    {
+      "displayName": "Flag Demo",
+      "description": "Flag FBX models, URP shadergraph materials, prefabs and the sample scene used to showcase the three runtime scripts.",
+      "path": "Samples~/FlagDemo"
+    }
+  ]
+}
