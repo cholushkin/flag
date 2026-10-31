@@ -20,8 +20,8 @@ shader effect via `MaterialPropertyBlock`.
 A worked example — the flag FBX models, URP shadergraph materials, prefabs
 and a sample scene — ships as an installable **Sample** rather than inside
 the package itself: open **Window → Package Manager → Flag → Samples**, and
-click **Import** next to **Flag Demo**. `doc-assets/` (README images) is the
-only other thing at the repo root; everything else needed to *use* the
+click **Import** next to **Flag Demo**. `Documentation/` (README images) is
+the only other thing at the repo root; everything else needed to *use* the
 package lives in `Runtime/` and `Samples~/FlagDemo/`.
 
 The original Blender source, Python export tooling, and standalone sandbox
@@ -43,8 +43,8 @@ prefabs and scene that showcase them.
 * 🎨 **Color and Texture support via `MaterialPropertyBlock`** — allows dynamic per-object coloring & texturing without duplicating materials (ideal for batching and memory efficiency)
 
 
-![Flag Animation](doc-assets/Animation.gif)
-![Screenshot](doc-assets/Screenshot_1.jpg)
+![Flag Animation](Documentation/Animation.gif)
+![Screenshot](Documentation/Screenshot_1.jpg)
 
 
 ## Tags
