@@ -2,6 +2,14 @@
 
 All notable changes to this package will be documented in this file.
 
+## [Unreleased]
+### Removed
+- Deleted the standalone `Unity/Flag/` sandbox project entirely (`ProjectSettings/`, `Packages/manifest.json` + lock, and `Assets/Settings/` — including `Mobile_RPAsset.asset` and `PC_RPAsset.asset`). This repo is now a pure UPM package; the flag-shader demo is only available as an installable Sample.
+- Removed `ArtSources/` (Blender source) and `UserScripts/` (Python export tooling), and deinitialized the `ScriptUtils` git submodule — none of it is needed to install or use the package.
+### Changed
+- Moved `SampleSceneProfile.asset` (referenced by the demo scene) into `Samples~/FlagDemo/Settings/`, since its source location no longer exists.
+- `.gitignore` replaced the old `/Unity/Flag/*`-scoped entries with the standard generic Unity-package ignore set (`*.csproj`, `*.sln`, `Library/`, etc.).
+
 ## [1.0.0] - 2026-10-30
 
 ### Changed

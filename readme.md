@@ -9,41 +9,32 @@ https://github.com/cholushkin/flag.git
 ```
 
 No manual Git dependencies are required — `Runtime/` has no dependency on
-`ScriptUtils` or any other package.
+any other package.
 
 ## 📦 What this package is
 
-This is a small, mostly standalone-demo project; the installable package is
-just three `MonoBehaviour` utilities in `Runtime/` (`Rotate`,
-`ColorPropertyOverride`, `TexturePropertyOverride`) plus a `Samples~/FlagDemo`
-sample containing the flag FBX models, URP shadergraph materials, prefabs and
-sample scene that showcase them. `ArtSources/` (the Blender source file),
-`UserScripts/ExportFbxFlag.py` (the Blender→FBX export script) and
-`doc-assets/` remain at the repo root as supporting source/tooling — they are
-not part of the installable UPM package. `ScriptUtils` is a git submodule used
-by that export tooling only, not by the runtime scripts.
+A pure UPM package: three `MonoBehaviour` utilities in `Runtime/` (`Rotate`,
+`ColorPropertyOverride`, `TexturePropertyOverride`) for driving a flag-waving
+shader effect via `MaterialPropertyBlock`.
 
-## Demo
+A worked example — the flag FBX models, URP shadergraph materials, prefabs
+and a sample scene — ships as an installable **Sample** rather than inside
+the package itself: open **Window → Package Manager → Flag → Samples**, and
+click **Import** next to **Flag Demo**. `doc-assets/` (README images) is the
+only other thing at the repo root; everything else needed to *use* the
+package lives in `Runtime/` and `Samples~/FlagDemo/`.
 
-This demo project demonstrates the following key features:
+The original Blender source, Python export tooling, and standalone sandbox
+Unity project this package was extracted from are not part of this repo —
+see the shader effect itself below.
 
-* **Exporting models using a Python script**
+## Shader Graph implementation
 
-  * See `ScriptUtils\Config\readme.md` for setup instructions.
-  * Add your configuration with the following fields:
+* `LitFlag`: A simple lit shader using a color tint
+* `LitFlagTexture`: A version that combines texture sampling with color tinting
 
-    ```json
-    {
-      "unity_project_root": "Unity/Flag",
-      "blender_path": "your_path_to_blender"
-    }
-    ```
-
-* **Shader Graph implementation for a flag effect**
-
-  * `LitFlag`: A simple lit shader using a color tint
-  * `LitFlagTexture`: A version that combines texture sampling with color tinting
-
+Both ship with the **Flag Demo** sample (see above) alongside the models,
+prefabs and scene that showcase them.
 
 ## Features
 
